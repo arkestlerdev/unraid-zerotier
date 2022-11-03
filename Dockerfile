@@ -1,4 +1,4 @@
-FROM spikhalskiy/zerotier-containerized:1.8.2
+FROM arkestlerdev/zerotier-container
 
 COPY main.sh /main.sh
 RUN chmod +x main.sh
